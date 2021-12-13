@@ -2,5 +2,5 @@
 
 1. Run log4shell vuln app
 
-[ap@laptop ~]$ podman run  -p 8080:8080 quay.io/apoczeka/log4shell-vuln:latest 
+podman run  -p 8080:8080 quay.io/apoczeka/log4shell-vuln:latest 
 
