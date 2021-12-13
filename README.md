@@ -3,14 +3,14 @@
 ### 1. Run log4shell vuln app
 
 ```bash
-podman run  -p 8080:8080 quay.io/apoczeka/log4shell-vuln:latest**
+podman run  -p 8080:8080 quay.io/apoczeka/log4shell-vuln:latest
 ```
 
 
 ### 2. Run "exploit server"
 
 ```bash
-podman run -p 1389:1389 -p 8888:8888  quay.io/apoczeka/log4shell -i <host_address> -l 1389 -p 8888**
+podman run -p 1389:1389 -p 8888:8888  quay.io/apoczeka/log4shell -i <host_address> -l 1389 -p 8888
 ```
 
 <host_address> is your host machine address from WIFI or LAN interface\
