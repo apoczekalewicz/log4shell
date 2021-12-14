@@ -43,4 +43,4 @@ For example:
 
 ### 5. Links:
 https://github.com/christophetd/log4shell-vulnerable-app.git
-
+https://gist.github.com/SwitHak/b66db3a06c2955a9cb71a8718970c592
